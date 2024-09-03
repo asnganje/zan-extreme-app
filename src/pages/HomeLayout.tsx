@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom"
 
 function HomeLayout() {
   return (
-    <div className="flex flex-col align-element pt-10 pb-5 h-screen">
+    <div className="flex flex-col align-element pt-10 pb-5">
       <Header />
       <Navbar />
       <Outlet />

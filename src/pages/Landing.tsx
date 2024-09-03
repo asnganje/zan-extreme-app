@@ -1,6 +1,6 @@
 function Landing() {
   return (
-    <div>Landing</div>
+    <div className="h-[70vh] p-10">Landing Page content goes here...</div>
   )
 }
 export default Landing

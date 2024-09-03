@@ -7,7 +7,7 @@ import { service } from "@/utils/serviceList"
 function Footer() {
   return (
     <div className="mt-auto bg-gray-200 rounded-md dark:bg-black shadow-lg pb-6">
-      <div className="grid grid-cols-1 gap-y-6 w-[90vw] xl:w-[80vw] place-items-center md:grid-cols-[14%,33%,19%,34%] gap-x-4">
+      <div className="grid grid-cols-1 gap-y-10 w-[90vw] xl:w-[80vw] place-items-center md:grid-cols-[14%,33%,19%,34%] gap-x-4">
         <div className="hidden md:block w-[5vw] h-[10vh]">
           <Logo />
         </div>
