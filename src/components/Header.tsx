@@ -3,15 +3,15 @@ import { motion } from 'framer-motion';
 function Header() {
   return (
     <motion.div
-      initial={{ x: '100vw', opacity: 0 }}
+      initial={{ y: '-100vh', opacity: 0 }}
       animate={{
-        x: '0vw',
+        y: '0vh',
         opacity: 1,
       }}
       transition={{
-        x: {
-          duration: 4,
-          ease: 'linear',
+        y: {
+          duration: 3,
+          ease: 'easeOut',
         },
         opacity: {
           duration: 1,
@@ -19,8 +19,8 @@ function Header() {
         },
       }}
     >
-      <h3 className="flex items-center justify-center flex-grow text-sm md:text-base md:justify-end text-blue-500">
-        +254723663237 | zanextremeholydays@gmail.com
+      <h3 className="flex items-center justify-center flex-grow text-sm md:text-base text-blue-500">
+        Welcome to Zan Extreme Holidays!
       </h3>
     </motion.div>
   );
