@@ -5,7 +5,7 @@ import Navlinks from "./Navlinks"
 
 function Navbar() {
   return (
-    <nav className="py-4 bg-white shadow-lg px-4">
+    <nav className="py-4 shadow-lg px-4">
       <div className="flex justify-between items-center">
         <Logo />
         <LinksDropdown />
