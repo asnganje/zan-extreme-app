@@ -1,6 +1,13 @@
+import { Link } from "react-router-dom"
+
 function Logo() {
   return (
-    <div>Logo</div>
+    <Link
+      to="/"
+      className="bg-primary"
+      >
+      Logo
+    </Link>
   )
 }
 export default Logo
