@@ -12,7 +12,7 @@ function Footer() {
           <Logo />
         </div>
         <div className="">
-          <h3 className="text-center md:ml-[5vw] my-2">CONTACT US</h3>
+          <h3 className="text-center my-2">CONTACT US</h3>
           <div className="flex flex-col gap-4">
             {
               contact.map((el)=> {
