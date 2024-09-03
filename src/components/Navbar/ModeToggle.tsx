@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu"
-import { Button } from "./ui/button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu"
+import { Button } from "../ui/button"
 import { Moon, Sun } from "lucide-react"
 import { setTheme } from "@/features/theme/themeSlice"
 

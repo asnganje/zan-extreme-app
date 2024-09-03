@@ -20,7 +20,6 @@ function Header() {
       }}
     >
       <h3 className="flex items-center justify-center flex-grow text-sm md:text-base text-blue-500">
-        Welcome to Zan Extreme Holidays!
       </h3>
     </motion.div>
   );
