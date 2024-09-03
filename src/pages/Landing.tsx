@@ -1,6 +1,10 @@
+import ImagesCarousel from "@/components/LandingImgsCarousel/ImagesCarousel"
+
 function Landing() {
   return (
-    <div className="h-[70vh] p-10">Landing Page content and logic under construction...</div>
+    <div className="py-4">
+      <ImagesCarousel />
+    </div>
   )
 }
 export default Landing
