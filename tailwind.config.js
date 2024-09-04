@@ -15,6 +15,7 @@ export default {
       },
 			fontFamily: {
         'bodoni': ['Bodoni MT', 'serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
       },
   		colors: {
   			background: 'hsl(var(--background))',
