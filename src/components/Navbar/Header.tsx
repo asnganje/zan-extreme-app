@@ -19,7 +19,8 @@ function Header() {
         },
       }}
     >
-      <h3 className="flex items-center justify-center flex-grow text-sm md:text-base text-blue-500">
+      <h3 className="hidden items-center justify-center flex-grow text-sm md:text-base text-blue-500">
+        zanextremeholydays@gmail.com | +255 653 118 899
       </h3>
     </motion.div>
   );
