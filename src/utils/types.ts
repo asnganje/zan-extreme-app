@@ -18,8 +18,9 @@ export type Service = {
   description: string;
 }
 
-export type dashboardItems = {
+export type DashboardItems = {
   id: number;
+  heading:string;
   text:string;
-  image: React.ReactNode;
+  image: string;
 }
