@@ -44,7 +44,7 @@ function Footer() {
         </div>
         <div className="">
           <h3 className="text-center my-2">OUR SERVICES</h3>
-          <ul className="list-disc font-mono tracking-tighter">
+          <ul className="list-disc tracking-tighter">
             {
               service.map((item)=> {
                 return <li key={item.id}>
