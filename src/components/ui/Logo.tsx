@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logo from "/zan1.png"
+import logo from "/logo.png"
 
 function Logo() {
   return (
