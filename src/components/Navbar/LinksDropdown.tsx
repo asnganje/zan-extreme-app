@@ -1,15 +1,17 @@
-import { AlignLeft } from "lucide-react"
+import { useState } from "react"
+import { AlignLeft, XIcon } from "lucide-react"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu"
 import { links } from "@/utils"
 import { NavLink } from "react-router-dom"
 import { Button } from "../ui/button"
 
 function LinksDropdown() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <DropdownMenu>
+    <DropdownMenu onOpenChange={setIsMenuOpen}>
       <DropdownMenuTrigger asChild className="lg:hidden">
         <Button variant="outline" size="icon">
-          <AlignLeft />
+          {isMenuOpen ? <XIcon /> : <AlignLeft />}
           <span className="sr-only">Toggle Links</span>
         </Button>
       </DropdownMenuTrigger>
