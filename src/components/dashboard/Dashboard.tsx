@@ -4,7 +4,7 @@ import { Separator } from "../ui/separator"
 function Dashboard() {
   return (
     <div className="shadow-2xl my-[12vh] p-8">
-      <p className="text-center uppercase text-sm xs:text-base md:text-lg lg:text-3xl text-blue-300 py-10 shadow-2xl rounded my-10">"Discover Zanzibar: Wonders Tour Package"</p>
+      <p className="text-center uppercase text-sm xs:text-2xl md:text-lg lg:text-3xl text-blue-300 py-10 shadow-2xl rounded my-10">"Discover Zanzibar: Wonders Tour Package"</p>
       {
         dashItems.map((item, i)=> {
           return (
