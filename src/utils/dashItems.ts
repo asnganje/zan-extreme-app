@@ -22,7 +22,7 @@ export const dashItems: DashboardItems[] = [
     heading: "Spice Tour",
     text:"Zanzibar earned its reputation as a major seaport through its historic export of slaves and spices. Renowned as the SPICE ISLAND during the 18th and 19th centuries, it was the global center of clove production. Our spice tours offer an immersive experience, allowing you to explore lush plantations, uncover the island's rich history, and learn about the cultivation of various spices. Your guide will provide detailed insights into the uses of each spice plant, enriching your understanding of this aromatic heritage.",
     image:spice,
-    alt:"Spice Display – Spice Farm"
+    alt:"Spices Display"
   },
   {
     id: 3,
@@ -42,14 +42,14 @@ export const dashItems: DashboardItems[] = [
     heading: "Safari Blue",
     text:"Safari Blue offers a full day of ocean adventure with swimming, snorkeling, and sunbathing, guided by our expert instructors. Enjoy chilled sodas, mineral water, beer, and a Zanzibari seafood lunch with grilled fish, lobster, and tropical fruits. Explore Menai Bay Conservation Area, where you have a 75% chance of spotting Indo-Pacific humpback and bottlenose dolphins. Relax on a beautiful sandbank, snorkel with high-quality gear, and savor cold drinks and local snacks. On Kwale Island, enjoy a buffet lunch of grilled seafood and a variety of tropical fruits. Experience sailing on a traditional ngalawa canoe and conclude the day with a stunning African sunset as you return by lateen sail.",
     image:safariBlue,
-    alt:"Snorkeling Time-Safari Blue"
+    alt:"Snorkeling-Safari Blue"
   },
   {
     id: 6,
     heading: "Jozani Forest Tour",
     text:"This tour takes you to one of East Africa's last natural rainforests, the Jozani Forest Reserve. Home to towering exotic trees and diverse wildlife, it's particularly famous for the Red Colobus Monkeys, unique to Zanzibar. Nestled between Chwaka Bay, the forest offers a tranquil walk through mangroves, providing a vital refuge for the island's flora and fauna. Enjoy a pleasant, guided tour in this protected paradise.",
     image:monkey,
-    alt:"Red Colobus Monkey-Jozani"
+    alt:"Red Colobus Monkey"
   },
   {
     id: 7,
@@ -70,6 +70,6 @@ export const dashItems: DashboardItems[] = [
     heading: "Sunset Cruising",
     text:"This delightful evening cruise begins at 5:00 PM from Stone Town, setting sail on a traditional dhow as you glide along the west coast. From Forodhani, you'll travel past Maruhubi and up to Mtoni Marine, all while enjoying the stunning sunset. Onboard, you'll experience the vibrant rhythms of local Taarabu music and savor a selection of soft drinks and snacks, including fried octopus, crispy potatoes, cassava, and nuts.",
     image:sunset,
-    alt:"Boat Cruising Stone Town"
+    alt:"Boat Cruising"
   },
 ]
