@@ -41,8 +41,11 @@ function Dashboard() {
                     </button>
                 </p>
             </div>
-            <div className={`flex justify-center items-center ${i % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
+            <div className={`relative group flex justify-center items-center ${i % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
               <img src={item.image} alt="" className="cursor-pointer"/>
+              <div className="absolute inset-0 flex items-center justify-center bg-transparent bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                <p className="text-white text-3xl font-bold">{item.alt}</p>
+              </div>
             </div>
             </div>
           )

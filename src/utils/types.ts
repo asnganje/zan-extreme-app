@@ -23,4 +23,5 @@ export type DashboardItems = {
   heading:string;
   text:string;
   image: string;
+  alt?:string;
 }
