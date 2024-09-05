@@ -3,22 +3,39 @@ import { Service } from "./types";
 export const service: Service[] = [
   {
     id:1,
-    description:"Dolphin Tour"
+    description:"Stone Town Tour"
   },
   {
     id:2,
-    description:"Prison Island Tour"
+    description:"Spice Tour"
   },
   {
     id:3,
-    description:"Jozani Forest Tour"
+    description:"Prison Island Tour"
   },
   {
     id:4,
-    description:"Nungwi Village Tour"
+    description:"Prison Nakupenda"
   },
   {
     id:8,
-    description:"Sunset Cruising"
+    description:"Safari Blue"
   },
+  {
+    id:9,
+    description:"Jozani Forest Tour"
+  },
+  {
+    id:10,
+    description:"Dolphin Tour"
+  },
+  {
+    id:11,
+    description:"Nungwi Village Tour"
+  },
+  {
+    id:12,
+    description:"Sunset Cruise"
+  },
+ 
 ]

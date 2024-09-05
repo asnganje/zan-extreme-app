@@ -4,7 +4,7 @@ function LandingIntro() {
   return (
     <div>
       <div className=" shadow-lg py-2 mt-2">
-        <p className="font-bodoni text-2xl md:text-4xl text-blue-500 font-extrabold text-center">Zan Extreme Holidays and Wildlife Safaris!</p>
+        <p className="font-bodoni text-2xl md:text-4xl text-blue-400 font-extrabold text-center">Zan Extreme Holidays and Wildlife Safaris!</p>
       </div>
       <div className="flex flex-col items-center md:grid md:grid-cols-[30%,1fr]">
         <div className="w-[90%] h-full xs:w-[80%] xs:h-[90%] md:w-[20vw] md:h-[30vh] lg:h-[35vh] md:py-[5vh]">
