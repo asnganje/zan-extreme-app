@@ -14,7 +14,7 @@ function Dashboard() {
   // }
   return (
     <div className="shadow-2xl my-[12vh] p-8">
-      <p className="text-center uppercase text-xl xs:text-3xl text-blue-300 py-8 shadow-2xl rounded mt-2 mb-10"><span className="hidden md:inline">"Discover Zanzibar: </span>Wonders Tour Package<span className="hidden md:inline">"</span></p>
+      <p className="text-center uppercase text-xl xs:text-3xl text-blue-400 px-1 py-6 shadow-2xl rounded mt-2 mb-10"><span className="hidden md:inline">"Discover Zanzibar: </span><span className="inline md:hidden">"THE </span>Wonders Tour Package<span className="inline md:hidden">"</span><span className="hidden md:inline">"</span></p>
       {
         dashItems.map((item, i)=> {
           return (
