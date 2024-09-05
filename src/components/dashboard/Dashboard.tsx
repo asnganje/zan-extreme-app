@@ -25,7 +25,7 @@ function Dashboard() {
       {
         dashItems.map((item, i)=> {
           const isFullTextVisible = isVisible.includes(item.id)
-          const textLimit = 300;
+          const textLimit = 250;
           return (
             <div key={item.id} className={`flex flex-col md:grid md:grid-cols-2 md:gap-[5vw] mb-[15vh]`}>
               <div className={`flex flex-col ${i % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
