@@ -11,7 +11,7 @@ function Dashboard() {
             <div key={item.id} className={`flex flex-col md:grid md:grid-cols-2 md:gap-[5vw] mb-[15vh]`}>
               <div className={`flex flex-col ${i % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-blue-300 text-center text-2xl cursor-pointer">{item.heading}</p>
-                <Separator className="text-orange-400"/>
+                <Separator className="text-orange-400 w-[80%] flex justify-center items-center"/>
                 <p className="px-8 text-start md:py-8 shadow font-montserrat text-gray-500 dark:text-white tracking-wide">{item.text}</p>
             </div>
             <div className={`flex justify-center items-center ${i % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
