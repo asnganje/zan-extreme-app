@@ -31,11 +31,11 @@ function Footer() {
         </div>
         <div className="">
           <h3 className="text-center my-2">CONNECT WITH US</h3>
-          <div className="flex gap-x-3 ml-4">
+          <div className="flex gap-x-5 ml-4">
             {
               socialIcons.map((sIcon)=> {
                 const ComponentIcon = sIcon.icon
-                return <NavLink to={sIcon.href} className="flex" key={sIcon.id}>
+                return <NavLink to={sIcon.href} className="flex justify-center items-center" key={sIcon.id}>
                         <ComponentIcon className={`${sIcon.color} w-5 h-5 lg:w-7 lg:h-7`} />
                       </NavLink> 
               })

@@ -7,7 +7,7 @@ function LandingIntro() {
         <p className="font-bodoni text-2xl md:text-4xl text-blue-400 font-extrabold text-center">Zan Extreme Holidays and Wildlife Safaris!</p>
       </div>
       <div className="flex flex-col items-center md:grid md:grid-cols-[30%,1fr]">
-        <div className="w-[90%] h-full xs:w-[80%] xs:h-[90%] md:w-[20vw] md:h-[30vh] lg:h-[35vh] md:py-[5vh]">
+        <div className="w-[50%] h-full xs:w-[40%] xs:h-[90%] md:w-[20vw] md:h-[30vh] lg:h-[35vh] md:py-[5vh]">
           <Logo />
         </div>
         <div className="my-4">
