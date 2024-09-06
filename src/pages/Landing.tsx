@@ -4,7 +4,7 @@ import LandingIntro from "@/components/LandingContentArea/LandingIntro";
 
 function Landing() {
   return (
-    <div className="py-4">
+    <div>
       <ImagesCarousel />
       <LandingIntro />
       <Dashboard />
