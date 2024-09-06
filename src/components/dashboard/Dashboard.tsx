@@ -27,7 +27,7 @@ function Dashboard() {
           const isFullTextVisible = isVisible.includes(item.id)
           const textLimit = 250;
           return (
-            <div key={item.id} className={`flex flex-col md:grid md:grid-cols-2 md:gap-[5vw] mb-[15vh]`}>
+            <div key={item.id} className={`flex flex-col md:grid md:grid-cols-2 md:gap-[5vw]`}>
               <div className={`flex flex-col ${i % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-blue-300 text-center text-2xl cursor-pointer">{item.heading}</p>
                 <Separator className="text-orange-400 mb-4"/>

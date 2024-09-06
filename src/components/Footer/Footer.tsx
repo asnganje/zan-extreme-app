@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 
 function Footer() {
   return (
-    <div className="mt-auto bg-gray-200 rounded-md dark:bg-black shadow-lg pb-6">
+    <div className="-mt-[12vh] bg-gray-200 dark:bg-black shadow-lg pb-6">
       <div className="grid grid-cols-1 gap-y-10 w-full place-items-center md:flex justify-between px-10">
         <div className="hidden md:block w-[5vw] h-[10vh]">
           <Logo />
