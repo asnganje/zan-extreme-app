@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom"
 function Footer() {
   return (
     <div className="mt-auto bg-gray-200 rounded-md dark:bg-black shadow-lg pb-6">
-      <div className="grid grid-cols-1 gap-y-10 w-[87vw] xl:w-[80vw] place-items-center md:grid-cols-[1fr,1fr,1fr] gap-x-4">
+      <div className="grid grid-cols-1 gap-y-10 w-full place-items-center md:flex justify-between px-10">
         <div className="hidden md:block w-[5vw] h-[10vh]">
           <Logo />
         </div>
@@ -19,7 +19,7 @@ function Footer() {
                 const IconComponent = el.icon
                 return(
                   <div className="flex gap-x-2 items-center" key={el.id}>
-                    <div className="w-[3vw] h-[3vh]">
+                    <div className="w-[5vw] h-[5vh] md:w-[4vw] md:h-[4vh]">
                       <IconComponent className="w-full h-full object-cover text-blue-700"/>
                     </div>
                     <p className="text-sm xs:text-base lg:text-lg tracking-tighter">{el.info}</p>
@@ -42,18 +42,6 @@ function Footer() {
             }
           </div>
         </div>
-        {/* <div className="flex flex-col items-center justify-start">
-          <h3 className="text-start my-2">WONDERS TOUR PACKAGE</h3>
-          <ul className="list-disc tracking-tighter">
-            {
-              service.map((item)=> {
-                return <li key={item.id} className="text-sm xs:text-base lg:text-lg">
-                  {item.description}
-                </li>
-              })
-            }
-          </ul>
-        </div> */}
       </div>
     </div>
   )
