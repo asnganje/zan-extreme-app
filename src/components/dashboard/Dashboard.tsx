@@ -31,7 +31,7 @@ function Dashboard() {
               <div className={`flex flex-col ${i % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <p className="text-blue-300 text-center text-2xl cursor-pointer">{item.heading}</p>
                 <Separator className="text-orange-400 mb-4"/>
-                <p className="px-2 text-start md:py-8 shadow font-montserrat text-gray-500 dark:text-white tracking-wide mb-6">
+                <p className="px-2 text-start pb-6 md:py-8 shadow font-montserrat text-gray-500 dark:text-white tracking-wide mb-6">
                   {isFullTextVisible ? item.text : truncateText(item.text, textLimit)}
                   <button 
                     className="inline text-xs xs:text-sm text-blue-400 underline cursor-pointer"
