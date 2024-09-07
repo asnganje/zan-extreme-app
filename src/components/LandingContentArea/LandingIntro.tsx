@@ -3,7 +3,7 @@ import Logo from "../ui/Logo"
 function LandingIntro() {
   return (
     <div>
-      <div className=" shadow-lg py-2 mt-2">
+      <div className=" shadow-lg pb-2">
         <p className="font-bodoni text-2xl md:text-4xl text-blue-400 font-extrabold text-center">Zan Extreme Holidays and Wildlife Safaris!</p>
       </div>
       <div className="flex flex-col items-center md:grid md:grid-cols-[1fr] md:place-items-center">
