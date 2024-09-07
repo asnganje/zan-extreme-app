@@ -16,6 +16,7 @@ export default {
 			fontFamily: {
         'bodoni': ['Bodoni MT', 'serif'],
 				'montserrat': ['Montserrat', 'sans-serif'],
+				'robotoSlab': ['"Roboto Slab"', 'serif'],
       },
   		colors: {
   			background: 'hsl(var(--background))',
