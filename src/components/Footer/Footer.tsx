@@ -6,13 +6,13 @@ import { NavLink } from "react-router-dom"
 
 function Footer() {
   return (
-    <div className="bg-gray-200 dark:bg-black shadow-lg pb-6">
+    <div className="bg-blue-600 dark:bg-black shadow-lg pb-6">
       <div className="grid grid-cols-1 gap-y-10 w-full place-items-center md:flex justify-between px-4">
         <div className="hidden md:block w-[8rem] h-[8rem] md:mb-14">
           <Logo />
         </div>
         <div className="">
-          <h3 className="text-center my-2">CONTACT US</h3>
+          <h3 className="text-center my-2 text-white font-semibold">CONTACT US</h3>
           <div className="flex flex-col gap-4">
             {
               contact.map((el)=> {
@@ -20,9 +20,9 @@ function Footer() {
                 return(
                   <div className="flex gap-x-2 items-center" key={el.id}>
                     <div className="w-[5vw] h-[5vh] md:w-[4vw] md:h-[4vh]">
-                      <IconComponent className="w-full h-full object-cover text-blue-700"/>
+                      <IconComponent className="w-full h-full object-cover text-white"/>
                     </div>
-                    <p className="text-sm xs:text-base lg:text-lg tracking-tighter">{el.info}</p>
+                    <p className="text-sm text-white xs:text-base lg:text-lg tracking-tighter">{el.info}</p>
                   </div>
                 )
               })
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="">
-          <h3 className="text-center my-2">CONNECT WITH US</h3>
+          <h3 className="text-center my-2 text-white font-semibold">CONNECT WITH US</h3>
           <div className="flex gap-x-5 ml-4">
             {
               socialIcons.map((sIcon)=> {

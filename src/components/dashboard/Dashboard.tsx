@@ -28,7 +28,7 @@ function Dashboard() {
           return (
             <div key={item.id} className={`flex flex-col md:grid md:grid-cols-2 md:gap-[5vw] md:mb-10`}>
               <div className={`flex flex-col ${i % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
-                <p className="text-blue-300 text-center text-2xl mt-4 md:mt-0 cursor-pointer">{item.heading}</p>
+                <p className="text-blue-400 text-center text-2xl mt-4 md:mt-0 cursor-pointer">{item.heading}</p>
                 <p className="px-2 text-start md:py-2 shadow font-montserrat text-gray-500 dark:text-white tracking-wide">
                   {isFullTextVisible ? item.text : truncateText(item.text, textLimit)}
                   <button 

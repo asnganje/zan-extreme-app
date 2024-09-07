@@ -6,7 +6,7 @@ export const socialIcons: sIcons[] = [
     id: 1,
     href: "#",
     icon: FaFacebook,
-    color: "text-blue-500"
+    color: "text-white"
   },
   {
     id: 2,
@@ -30,6 +30,6 @@ export const socialIcons: sIcons[] = [
     id: 5,
     href: "#",
     icon: FaLinkedin,
-    color: "text-blue-700"
+    color: "text-white"
   },
 ]
