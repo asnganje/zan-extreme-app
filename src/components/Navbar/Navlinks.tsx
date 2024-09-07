@@ -10,7 +10,7 @@ function Navlinks() {
                   key={link.label}
                   to={link.href}
                   className={({isActive})=> {
-                    return `capitalize font-semibold text-lg tracking-wide ${isActive? 'text-white' : ''}`
+                    return `capitalize text-white text-lg tracking-wide ${isActive? 'font-bold' : ''}`
                   }}
                 >
                   {link.label}

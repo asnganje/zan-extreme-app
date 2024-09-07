@@ -12,7 +12,7 @@ function Footer() {
           <Logo />
         </div>
         <div className="">
-          <h3 className="text-center my-2 font-bold">CONTACT US</h3>
+          <h3 className="text-center my-2 font-bold text-white">CONTACT US</h3>
           <div className="flex flex-col gap-4">
             {
               contact.map((el)=> {
@@ -22,7 +22,7 @@ function Footer() {
                     <div className="w-[5vw] h-[5vh] md:w-[4vw] md:h-[4vh]">
                       <IconComponent className="w-full h-full object-cover text-white"/>
                     </div>
-                    <p className="text-sm xs:text-base lg:text-lg tracking-tighter">{el.info}</p>
+                    <p className="text-sm xs:text-base lg:text-lg tracking-tighter text-white">{el.info}</p>
                   </div>
                 )
               })
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="">
-          <h3 className="text-center my-2 font-bold">CONNECT WITH US</h3>
+          <h3 className="text-center my-2 font-bold text-white">CONNECT WITH US</h3>
           <div className="flex gap-x-5 ml-4">
             {
               socialIcons.map((sIcon)=> {
