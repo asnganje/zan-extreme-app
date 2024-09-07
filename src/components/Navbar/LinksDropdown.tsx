@@ -8,7 +8,7 @@ import { Button } from "../ui/button"
 function LinksDropdown() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <DropdownMenu onOpenChange={setIsMenuOpen}>
+    <DropdownMenu open={isMenuOpen} onOpenChange={setIsMenuOpen}>
       <DropdownMenuTrigger asChild className="lg:hidden">
         <Button variant="outline" size="icon">
           {isMenuOpen ? <XIcon /> : <AlignLeft />}
@@ -16,7 +16,7 @@ function LinksDropdown() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        className="w-52 lg:hidden"
+        className="w-52 -ml-4 h-[40vh] -mt-3 lg:hidden"
         align="start"
         sideOffset={25}
       >
@@ -25,8 +25,9 @@ function LinksDropdown() {
             return <DropdownMenuItem key={link.label}>
                 <NavLink
                   to={link.href}
+                  onClick={()=>setIsMenuOpen(false)}
                   className={({isActive})=> {
-                    return `capitalize w-full hover:ml-2 ${isActive? 'text-primary' : ''}`
+                    return `capitalize w-full text-lg hover:font-bold ${isActive? 'text-primary' : ''}`
                   }}
                 >
                   {link.label}
