@@ -6,9 +6,9 @@ import { AspectRatio } from "../ui/aspect-ratio";
 import { useEffect, useState } from "react";
 
 const images = [
+  { id: 3, src: img3, alt: "landing img3" },
   { id: 1, src: img1, alt: "landing img1" },
   { id: 2, src: img2, alt: "landing img2" },
-  { id: 3, src: img3, alt: "landing img3" },
 ];
 
 function ImagesCarousel() {
@@ -17,7 +17,7 @@ function ImagesCarousel() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex: number) => (prevIndex + 1) % images.length);
-    }, 60000);
+    }, 45000);
 
     return () => clearInterval(intervalId);
   }, []);
