@@ -6,7 +6,7 @@ import Navlinks from "./Navlinks"
 function Navbar() {
   return (
     <nav className="sticky top-0 h-[15vh] md:h-[20vh] z-50 flex justify-between items-center bg-gray-200 dark:bg-black shadow-lg px-4">
-        <div className="w-[8rem] h-[8rem] hidden lg:flex">
+        <div className="w-[6rem] h-[6rem] hidden lg:flex">
           <Logo />
         </div>
         <LinksDropdown />
