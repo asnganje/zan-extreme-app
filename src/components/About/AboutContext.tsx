@@ -1,6 +1,6 @@
 function AboutContext() {
   return (
-    <div className="font-robotoSlab bg-white w-[70vw] mx-auto px-4 py-8 shadow rounded tracking-loose">
+    <div className="font-robotoSlab bg-white dark:bg-black w-[70vw] mx-auto px-4 py-8 shadow rounded tracking-loose">
       <div className="flex flex-col gap-8 mb-8">
         <p className="text-[16px]">
         <span className="font-bold">ZAN EXTREME HOLIDAYS AND WILDLIFE SAFARIS</span> is a premier luxury travel company specializing in crafting personalized safaris and holiday experiences in the Zanzibar archipelago, known as the "Spice Islands," and mainland Tanzania. With over 15 years of expertise in the Tourism and Hospitality industry, we are dedicated to delivering exceptional customer service across the renowned Southern and Northern Safari Circuits, ensuring that each journey with us is truly unforgettable.
