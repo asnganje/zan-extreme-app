@@ -20,7 +20,7 @@ function Dashboard() {
   }
 
   return (
-    <div className="shadow-lg px-8 pb-8 pt-4 bg-white">
+    <div className="shadow-lg px-8 pb-8 pt-4 bg-white dark:bg-black">
       <p className="text-center uppercase text-xl xs:text-3xl text-blue-400 px-1 py-6 shadow-2xl rounded mt-2 mb-10"><span className="hidden md:inline">"Discover Zanzibar: </span><span className="inline md:hidden">"THE </span>Wonders Tour Package<span className="inline md:hidden">"</span><span className="hidden md:inline">"</span></p>
       {
         dashItems.map((item, i)=> {
