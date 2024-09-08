@@ -2,6 +2,7 @@ import LinksDropdown from "./LinksDropdown"
 import Logo from "../ui/Logo"
 import ModeToggle from "./ModeToggle"
 import Navlinks from "./Navlinks"
+import { Button } from "../ui/button"
 
 function Navbar() {
   return (
@@ -11,7 +12,8 @@ function Navbar() {
         </div>
         <LinksDropdown />
         <Navlinks />
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center gap-10">
+          <Button className="bg-orange-400 xxs:mr-[20vw] md:mr-0 text-lg hover:bg-orange-300">Book now</Button>
           <ModeToggle />
         </div>
     </nav>
