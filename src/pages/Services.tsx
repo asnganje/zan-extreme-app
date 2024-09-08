@@ -1,6 +1,10 @@
+import OServices from "@/components/OurServices/OServices"
+
 function Services() {
   return (
-    <div className="h-[70vh] p-10">Under maintenance...</div>
+    <div className="min-h-[70vh] p-10">
+      <OServices />
+    </div>
   )
 }
 export default Services
