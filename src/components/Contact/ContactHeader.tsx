@@ -8,7 +8,7 @@ function ContactHeader() {
       <div className="flex flex-col justify-center items-center gap-2 text-[15px">
         <FcCellPhone className="w-[10vw] h-[10vh]"/>
         <h3 className="font-bold font-serif leading-8 tracking-wider text-orange-400 text-lg">Telephone</h3>
-        <p className="text-gray-600 leading-6 dark:text-white">+255 653 118 899</p>
+        <p className="text-gray-600 leading-6 dark:text-white">+255 765 118 898</p>
       </div>
       <div className="flex flex-col justify-center items-center gap-2 text-[15px">
         <MdOutlineMarkEmailUnread className="w-[10vw] h-[10vh] text-blue-400"/>

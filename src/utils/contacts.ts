@@ -15,6 +15,6 @@ export const contact: Contact[] = [
   {
     id:3,
     icon: PhoneCall,
-    info: "+255 653 118 899"
+    info: "+255 765 118 898"
   },
 ]
