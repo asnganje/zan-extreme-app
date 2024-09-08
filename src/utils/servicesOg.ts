@@ -30,7 +30,7 @@ export const servicesR: RService[] = [
     id: 4,
     img:incentv,
     heading: 'Incentive Group Adventures',
-    content: 'Seamless transportation to and from the airport, hotels, and beyond in style and comfort.',
+    content: 'Curated group experiences that blend luxury with adventure, rewarding your team with unforgettable memories.',
   },
   {
     id: 5,
