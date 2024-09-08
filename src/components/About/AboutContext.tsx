@@ -6,7 +6,7 @@ function AboutContext() {
         <span className="text-2xl">ZAN EXTREME HOLIDAYS AND WILDLIFE SAFARIS </span> is a premier luxury travel company specializing in crafting personalized trips and holiday experiences in the Zanzibar archipelago, known as the "Spice Islands," and mainland Tanzania. With over 15 years of expertise in the Tourism and Hospitality industry, we are dedicated to delivering exceptional customer service across the renowned Southern and Northern Safari Circuits, ensuring that each journey with us is truly unforgettable.
         </p>
         <p className="text-[16px]">
-        Our operations are well-equipped with 4x4 Safari Jeeps stationed in Arusha and Dar es Salaam, along with luxury vans, minibuses, and royal wagons in Zanzibar for seamless ground handling, transfers, and excursions. Our commitment to quality and comfort ensures that every journey with us is as smooth and enjoyable as possible.
+        Our operations are well-equipped with luxury vans, minibuses, and royal wagons in Zanzibar, along with 4x4 Safari Jeeps stationed in Arusha and Dar es Salaam, ensuring seamless ground handling, transfers, and excursions. Our commitment to quality and comfort guarantees that every journey with us is smooth and enjoyable.
         </p>
       </div>
       <div className="flex flex-col gap-8 mb-8">
