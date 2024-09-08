@@ -16,7 +16,7 @@ export const dashItems: DashboardItems[] = [
     heading: "Ground Transfer",
     text:"We offer seamless ground transfers across Zanzibar, Tanzania mainland, and nearby islands, ensuring comfortable and stylish transportation from airports, hotels, and to breathtaking wild safari destinations. Our reliable service guarantees a smooth journey, whether you're arriving for a relaxing holiday or exploring the islands and embarking on an adventurous safari. Experience stress-free transfers, allowing you to focus on enjoying the beauty and excitement of your trip.",
     image:groundT,
-    alt:"The OldFort"
+    alt:"Tourists Ground transfer vehicles"
   },
   {
     id: 2,
