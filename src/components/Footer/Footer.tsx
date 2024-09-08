@@ -2,7 +2,6 @@ import { contact } from "@/utils/contacts"
 import Logo from "../ui/Logo"
 import { socialIcons } from "@/utils/socialIcons"
 import { NavLink } from "react-router-dom"
-// import { service } from "@/utils/serviceList"
 
 function Footer() {
   return (
