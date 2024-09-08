@@ -25,3 +25,10 @@ export type DashboardItems = {
   image: string;
   alt?:string;
 }
+
+export interface RService {
+  id: number;
+  img:string;
+  heading:string;
+  content:string;
+}
