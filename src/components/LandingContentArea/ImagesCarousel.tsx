@@ -44,14 +44,14 @@ function ImagesCarousel() {
         onClick={prevImage}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 p-2 bg-gray-700 text-white rounded-full hover:bg-gray-800 z-30"
       >
-        <ChevronLeft size={30} />
+        <ChevronLeft className="w-[5vw] h-[5vw] md:w-[3vw] md:h-[3vw] lg:w-[2vw] lg:h-[2vw]" />
       </button>
 
       <button
         onClick={nextImage}
         className="absolute right-4 top-1/2 transform -translate-y-1/2 p-2 bg-gray-700 text-white rounded-full hover:bg-gray-800 z-30"
       >
-        <ChevronRight size={30} />
+        <ChevronRight className="w-[5vw] h-[5vw] md:w-[3vw] md:h-[3vw] lg:w-[2vw] lg:h-[2vw]" />
       </button>
 
       {/* Images container */}

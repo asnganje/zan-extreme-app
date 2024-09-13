@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom"
 
 function HomeLayout() {
   return (
-    <div className="flex flex-col align-element bg-white dark:bg-black">
+    <div className="relative flex flex-col align-element bg-white dark:bg-black">
       <Header />
       <Navbar />
       <Outlet />
