@@ -30,9 +30,9 @@ const router = createBrowserRouter([
     element: <About />,
   },
 ],
-{
-  basename: '/zan-extreme-app',
-}
+// {
+//   basename: '/zan-extreme-app',
+// }
 )
 function App() {
 
