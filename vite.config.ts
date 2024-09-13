@@ -10,6 +10,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  // base: '/zan-extreme-app/',
-  base: '/',
+  base: '/zan-extreme-app/',
+  // base: '/',
 });
