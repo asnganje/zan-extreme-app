@@ -29,7 +29,11 @@ const router = createBrowserRouter([
     path: '/about',
     element: <About />,
   },
-])
+],
+{
+  basename: '/zan-extreme-app',
+}
+)
 function App() {
 
   return <RouterProvider router={router} />
